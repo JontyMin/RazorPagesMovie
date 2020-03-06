@@ -33,8 +33,7 @@ namespace RazorPagesMovie.Models
                     {
                         Title = "Ghostbusters ",
                         ReleaseDate = DateTime.Parse("1984-3-13"),
-                        Genre = "Comedy",
-                        Price = 8.99M
+                        Genre = "Comedy"
                     },
 
                     new Movie
@@ -50,7 +49,7 @@ namespace RazorPagesMovie.Models
                         Title = "Rio Bravo",
                         ReleaseDate = DateTime.Parse("1959-4-15"),
                         Genre = "Western",
-                        Price = 3.99M
+                        Price = 3.99M,
                     }
                 );
                 context.SaveChanges();
